@@ -1,7 +1,7 @@
 
 import pygame
 
-class Figure:
+class Gamers:
     def __init__(self, x, y):
         self.x = x
         self.y = y
@@ -9,7 +9,7 @@ class Figure:
         self.height = 50
         self.selected = False
     
-    def select_position(self, x, y):
+    def move_to_position(self, x, y):
         self.x = x
         self.y = y
     
